@@ -3,19 +3,17 @@
   и их переопределение под различные устройства
 */
 :root {
-  --title-color: #DB00FF;
-  --accent-color: #FF0070;
-  --content-text-color: #FF0070;
-  --text-color: #F1B2CE;
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --content-text-color: #ff0070;
+  --text-color: #f1b2ce;
   --layer-color: #000028;
-  --footer-shadow-color: #FF0070;
-  --menu-hover-color: rgba(255, 0, 112, .4);
-  --main-font: 'IBM Plex Mono';
+  --footer-shadow-color: #ff0070;
+  --menu-hover-color: rgba(255, 0, 112, 0.4);
+  --main-font: "IBM Plex Mono";
   --main-font-size: 18px;
   --title-font-size: 116px;
   --bold-weight: 700;
   --normal-wieght: 400;
-} 
+}
 /* Section */
-
-
