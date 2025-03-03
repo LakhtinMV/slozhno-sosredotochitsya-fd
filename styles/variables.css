@@ -5,8 +5,9 @@
 :root {
   --title-color: #db00ff;
   --accent-color: #ff0070;
-  --content-text-color: #ff0070;
-  --text-color: #f1b2ce;
+  --content-title-color: #000028;
+  --subtitle-color: #FF0070;
+  --content-text-color: #f1b2ce;
   --layer-color: #000028;
   --footer-shadow-color: #ff0070;
   --menu-hover-color: rgba(255, 0, 112, 0.4);
