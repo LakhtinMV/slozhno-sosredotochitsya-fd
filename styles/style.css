@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-    /* сохраните в разметке и стилях класс page у тега body. Он удобен, 
+  /* сохраните в разметке и стилях класс page у тега body. Он удобен, 
   чтобы составлять селекторы для разных цветовых тем. */
   font-family: var(--main-font, "IBM Plex mono"), monospace;
   font-weight: 400;
@@ -127,6 +127,10 @@
   margin: 40px 10px 50px;
 }
 
+.content-conclusion .content__title {
+  margin-block-end: 19px;
+}
+
 .content__title {
   color: var(--subtitle-color, #ff0070);
 }
@@ -185,13 +189,13 @@
 }
 
 .gallery__picture {
+  object-fit: cover;
   inline-size: 100%;
   block-size: 100%;
-  object-fit: cover;
 }
 
 .gallery__subtitle {
-  margin-bottom: 10px;
+  margin-block-end: 10px;
 }
 
 .footer {
@@ -251,6 +255,12 @@
     margin: 60px 20px 80px;
   }
 
+  .content__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
   .content-focus .content__card,
   .content-conclusion .content__card {
     grid-column: 2;
@@ -268,10 +278,6 @@
   .content-conclusion .content__subtitle {
     grid-column: 2;
     margin-block-start: 0;
-  }
-
-  .content-conclusion .content__title {
-    grid-row: span 2;
   }
 
   .content__card {
@@ -306,7 +312,7 @@
   }
 
   .gallery__subtitle {
-    margin-bottom: 20px;
+    margin-block-end: 20px;
   }
 }
 
@@ -339,10 +345,9 @@
     max-inline-size: 315px;
   }
 
-  .content-concentration {
+  .content-concentration .content__cards {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: min-content 1fr;
-    column-gap: 20px;
   }
 
   .footer__title {
