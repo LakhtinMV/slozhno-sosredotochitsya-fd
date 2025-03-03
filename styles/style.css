@@ -196,6 +196,7 @@
 
 .gallery__subtitle {
   margin-block-end: 10px;
+  color: var(--content-title-color, #000028);
 }
 
 .footer {
